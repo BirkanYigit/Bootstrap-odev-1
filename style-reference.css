@@ -1,0 +1,84 @@
+.bg-df {
+  background-color: #E9ECEF;
+}
+
+.logo-style {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 40px;
+  margin: auto 0;
+  color: #FFC600;
+  user-select: none
+}
+
+.logo-style:hover {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: #5800FF;
+  text-decoration: none;
+  cursor: default;
+}
+
+
+
+.nav-item{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFC600;
+  user-select: none
+}
+
+.nav-item:hover {
+  color: #5800FF;
+  text-decoration: none;
+}
+
+
+
+h1 {
+  font-family: 'Raleway';
+  font-weight: 500;
+  color: #5800FF;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #5800FF;
+}
+
+.card-custom{
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.5), 0 0 6px rgba(0,0,0,.1);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: default;
+  width: 280px;
+  height: 400px;
+}
+
+.card-custom:hover{
+    transform: scale(1.05);
+  box-shadow: 0 0px 30px #5800FF, 0 4px 8px #5800FF;
+}
+
+.card-text-style {
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0.5rem auto 0rem auto;
+  padding: 0rem;
+}
+
+.card-price-style {
+  margin: 0rem auto 0rem auto;
+  padding: 0rem;
+}
+
+.bg-warning {
+  background-color: #FFC600;
+}
